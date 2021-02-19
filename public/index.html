@@ -1,0 +1,25 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sms sender App </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton-framework/1.1.1/skeleton.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <main class="container">
+        <h2>Envoyer un sms </h2>
+        <label for="phonenumber"> Numero : </label>
+        <input type="tel" name="phonenumber" id="phonenumber" placeholder="+224622304290...">
+        <input type="text" name="message" id="message" placeholder="Entrez le message...">
+        <input type="button" class="envoyer" id="envoyer" value="Envoyer">
+        <p class="reponse" id="reponse"></p>
+    </main>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/script.js" refer></script>
+</body>
+
+</html>
